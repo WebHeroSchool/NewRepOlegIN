@@ -4,7 +4,7 @@
 }
 
 .main__title span {
-  background: linear-gradient(to bottom, #fff 20%, #ECF3FF 20%, #ECF3FF 90%, #fff 90%, #fff 10%);
+  background: linear-gradient(to bottom, #fff 20%, #ecf3ff 20%, #ecf3ff 90%, #fff 90%, #fff 10%);
 }
 
 .main__button:hover {
@@ -15,7 +15,7 @@
   width: 8px;
   height: 8px;
   margin-right: 4px;
-  background: #C8DBFB;
+  background: #c8dbfb;
   border-radius: 50%;
 }
 
@@ -23,33 +23,33 @@
   width: 8px;
   height: 8px;
   margin-right: 4px;
-  background: #C8DBFB;
+  background: #c8dbfb;
   border-radius: 50%;
 }
 
 .footer_circle3 {
   width: 8px;
   height: 8px;
-  background: #C8DBFB;
+  background: #c8dbfb;
   border-radius: 50%;
 }
 
 @keyframes glowing {
-  0% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
-  50% { background-color: #C8DBFB; box-shadow: 0 0 20px #C8DBFB; }
-  100% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
+  0% { background-color: #0056ec; box-shadow: 0 0 10px #0056ec; }
+  50% { background-color: #c8dbfb; box-shadow: 0 0 20px #c8dbfb; }
+  100% { background-color: #0056ec; box-shadow: 0 0 10px #0056ec; }
 }
 
 .main__button {
-animation: glowing 2s infinite;
+  animation: glowing 2s infinite;
 }
 
 /*разрешение от 1582*/
 @media (min-width: 1582px) {
-.wrapper {
-  width: 80%;
-  margin-top: 18px;
-  margin-left: 10%;
+  .wrapper {
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 10%;
 }
 
 .header {
@@ -76,13 +76,13 @@ animation: glowing 2s infinite;
 }
 
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 8px;
   top: 37%;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .menu {
@@ -108,7 +108,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -173,10 +173,10 @@ animation: glowing 2s infinite;
 
 /*разрешение от 1367 до 1581*/
 @media (min-width: 1367px) and (max-width: 1581px) {
-.wrapper {
-  width: 80%;
-  margin-top: 18px;
-  margin-left: 10%;
+  .wrapper {
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 10%;
 }
 
 .header {
@@ -203,13 +203,13 @@ animation: glowing 2s infinite;
 }
 
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 8px;
   top: 37%;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .menu {
@@ -235,7 +235,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -276,7 +276,7 @@ animation: glowing 2s infinite;
   padding: 15px 35px 16px 24px;
   font: 500 18px/26px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -301,9 +301,9 @@ animation: glowing 2s infinite;
 
 /*разрешение от 1251 до 1366*/
 @media (min-width: 1251px) and (max-width: 1366px) {
-.wrapper {
-  width:71%;
-  margin: 18px 0px 0px 14%;
+  .wrapper {
+    width:71%;
+    margin: 18px 0 0 14%;
 }
   
 .header {
@@ -331,13 +331,13 @@ animation: glowing 2s infinite;
 }
   
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 30px;
   top: 39%;
 }
   
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
   
 .main {
@@ -381,7 +381,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -392,7 +392,7 @@ animation: glowing 2s infinite;
 }
   
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
   
 .main__button {
@@ -402,7 +402,7 @@ animation: glowing 2s infinite;
   margin-top: -2px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -427,9 +427,9 @@ animation: glowing 2s infinite;
 
 /*разрешение от 1025 до 1250*/
 @media (min-width: 1025px) and (max-width: 1250px) {
-.wrapper {
-  width: 100%;
-  margin-top: 18px;
+  .wrapper {
+    width: 100%;
+    margin-top: 18px;
 }
 
 .header {
@@ -457,13 +457,13 @@ animation: glowing 2s infinite;
 }
 
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 30px;
   top: 39%;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .main {
@@ -507,7 +507,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -518,7 +518,7 @@ animation: glowing 2s infinite;
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .main__button {
@@ -528,7 +528,7 @@ animation: glowing 2s infinite;
   margin-top: -2px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -553,10 +553,10 @@ animation: glowing 2s infinite;
 
 /*adoptation 974-1024*/
 @media (min-width: 974px) and (max-width: 1024px) {
-.wrapper {
-  width: 96%;
-  margin-top: 19px;
-  margin-left: 1.5%;
+  .wrapper {
+    width: 96%;
+    margin-top: 19px;
+    margin-left: 1.5%;
 }
   
 .header {
@@ -584,13 +584,13 @@ animation: glowing 2s infinite;
 }
   
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 30px;
   top: 39%;
 }
   
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
   
 .main {
@@ -634,7 +634,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -655,7 +655,7 @@ animation: glowing 2s infinite;
   margin-top: -2px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -680,10 +680,10 @@ animation: glowing 2s infinite;
   
 /*adoptation for 768-973*/
 @media (min-width: 768px) and (max-width: 973px) {
-.wrapper {
-  width: 93%;
-  margin-top: 19px;
-  margin-left: 1.5%;
+  .wrapper {
+    width: 93%;
+    margin-top: 19px;
+    margin-left: 1.5%;
 }
 
 .header {
@@ -711,13 +711,13 @@ animation: glowing 2s infinite;
 }
 
 .logo__circle_color_blue {
-  background: #C8DBFB;
+  background: #c8dbfb;
   left: 30px;
   top: 39%;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .main {
@@ -761,7 +761,7 @@ animation: glowing 2s infinite;
   content: "";
   width: 100%;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, width .5s;
 }
@@ -772,7 +772,7 @@ animation: glowing 2s infinite;
 }
 
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .main__button {
@@ -782,7 +782,7 @@ animation: glowing 2s infinite;
   margin-top: -2px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -807,10 +807,10 @@ animation: glowing 2s infinite;
 
 /*adoptation for mobile*/
 @media (max-width: 767px) {
- .wrapper {
-  width: 94%;
-  margin-left: auto;
-  margin-right: 8%
+  .wrapper {
+    width: 94%;
+    margin-left: auto;
+    margin-right: 8%
 }
 
 .main-content__button {
@@ -904,7 +904,7 @@ animation: glowing 2s infinite;
   width: 203px;
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
   transition: opacity .5s;
@@ -995,8 +995,8 @@ animation: glowing 2s infinite;
 }
 /*скрывает бургер-меню на высоком разрешении*/
 @media (min-width: 767px) {
-.hamburger-menu {
-  display: none;
+  .hamburger-menu {
+    display: none;
 }
 
 .menu__box {
