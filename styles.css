@@ -46,10 +46,10 @@ animation: glowing 2s infinite;
 
 /*разрешение от 1582*/
 @media (min-width: 1582px) {
-  .wrapper {
-    width: 80%;
-    margin-top: 18px;
-    margin-left: 10%;
+.wrapper {
+  width: 80%;
+  margin-top: 18px;
+  margin-left: 10%;
 }
 
 .header {
