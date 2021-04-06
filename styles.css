@@ -35,9 +35,9 @@
 }
 
 @keyframes glowing {
-      0% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
-      50% { background-color: #C8DBFB; box-shadow: 0 0 20px #C8DBFB; }
-      100% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
+  0% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
+  50% { background-color: #C8DBFB; box-shadow: 0 0 20px #C8DBFB; }
+  100% { background-color: #0056EC; box-shadow: 0 0 10px #0056EC; }
 }
 
 .main__button {
