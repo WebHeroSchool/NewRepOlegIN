@@ -40,7 +40,7 @@
     box-shadow: 0 0 10px #0056ec;
 }
 
-50% {
+  50% {
     background-color: #c8dbfb;
     box-shadow: 0 0 20px #c8dbfb;
 }
@@ -361,7 +361,7 @@
     padding-right: 27%;
     margin: 0 33% 41px 23px;
     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
-} 
+}
 
   .menu {
     display: flex;
