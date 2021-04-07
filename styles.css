@@ -329,7 +329,7 @@
     background: #c8dbfb;
     left: 30px;
     top: 39%;
-} 
+}
 
   .logo__circle_color_dark-blue {
     background: #0056ec;
@@ -474,7 +474,7 @@
   .main__subtitle {
     padding-right: 32%;
     margin: 0px 30% 41px 26px;
-    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+	font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
 
   .menu {
@@ -602,7 +602,7 @@
     margin: 0 31% 40px 25px;
     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
- 
+
   .menu {
     display: flex;
     align-items: center;
@@ -1013,7 +1013,7 @@
   .wrapper {
     width: 94%;
     margin-left: auto;
-    margin-right: 8%
+    margin-right: 8%;
 }
 
   .main-content__button {
