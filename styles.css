@@ -37,12 +37,12 @@
 @keyframes glowing {
   0% {
     background-color: #0056ec;
-	box-shadow: 0 0 10px #0056ec;
+    box-shadow: 0 0 10px #0056ec;
 }
 
   50% {
     background-color: #c8dbfb;
-	box-shadow: 0 0 20px #c8dbfb;
+    box-shadow: 0 0 20px #c8dbfb;
 }
 
   100% {
@@ -67,11 +67,11 @@
     margin-left: 10%;
 }
 
-.header {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  margin-bottom: 100px;
+  .header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
   .logo__text {
@@ -349,11 +349,11 @@
   .main {
     padding-bottom: 150px;
     background: url(img/mainming.svg) 99% -13%/54% no-repeat;
-} 
+}
 
   .main__title {
-	padding: 8px 49% 7px 23px;
-	margin-bottom: 34px;
+    padding: 8px 49% 7px 23px;
+    margin-bottom: 34px;
     font: 700 50px/65px 'pt_serifbold', arial, helvetica, sans-serif;
 }  
 
@@ -483,7 +483,7 @@
 }
 
   .main__subtitle {
-    margin: 0px 30% 41px 26px;
+    margin: 0 30% 41px 26px;
     padding-right: 32%;
     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
@@ -630,16 +630,16 @@
     transition: opacity 0.5s;
 }
 
-.menu__item::after {
-  position: absolute;
-  left: 0;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 3px;
-  background: #0056ec;
-  opacity: 0;
-  transition: opacity 0.5s, width 0.5s;
+  .menu__item::after {
+    position: absolute;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
 }
 
   .menu__item:hover::after,
