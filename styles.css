@@ -9,13 +9,13 @@
 
 @keyframes glowing {
   0% {
-	background-color: #0056ec;
-	box-shadow: 0 0 10px #0056ec;
+    background-color: #0056ec;
+    box-shadow: 0 0 10px #0056ec;
 }
-  
+
   50% {
-	background-color: #c8dbfb;
-	box-shadow: 0 0 20px #c8dbfb;
+    background-color: #c8dbfb;
+    box-shadow: 0 0 20px #c8dbfb;
 }
   
   100% {
@@ -360,7 +360,7 @@
     color: #000;
     text-decoration: none;
     transition: opacity 0.5s;
-} 
+}
 
   .menu__item::after {
     position: absolute;
