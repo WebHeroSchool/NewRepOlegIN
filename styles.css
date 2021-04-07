@@ -7,6 +7,10 @@
   background: linear-gradient(to bottom, #fff 20%, #ecf3ff 20%, #ecf3ff 90%, #fff 90%, #fff 10%);
 }
 
+.menu__item:hover {
+  opacity: 0.5;
+}
+
 .footer_circle1 {
   width: 8px;
   height: 8px;
@@ -113,17 +117,14 @@
     transition: opacity 0.5s, width 0.5s;
 }
 
-  .menu__item:hover {
-    opacity: 0.5;
-}
-
-  .menu__item:hover::after, .menu__item_active::after {
+  .menu__item:hover::after,
+  .menu__item_active::after {
     opacity: 1;
     width: 100%;
 }
 
-    .menu__item:last-child {
-      margin-right: 1px;
+  .menu__item:last-child {
+    margin-right: 1px;
 }
 
  .main {
@@ -198,7 +199,7 @@
     transform: translateY(-60%);
     width: 28px;
     height: 28px;
-    opacity: .7;
+    opacity: 0.7;
     border-radius: 50%;
 }
 
@@ -216,7 +217,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 5%;
- }
+}
 
   .menu__item {
     position: relative;
@@ -228,25 +229,21 @@
     transition: opacity .5s;
 }
 
-.menu__item::after {
-  position: absolute;
-  left: -1px;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 3px;
-  background: #0056ec;
-  opacity: 0;
-  transition: opacity .5s, width .5s;
+  .menu__item::after {
+    position: absolute;
+    left: -1px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity .5s, width .5s;
 }
 
-.menu__item:hover {
-  opacity: 0.5;
-}
-
-.menu__item:hover::after, .menu__item_active::after {
-  opacity: 1;
-  width: 100%;
+  .menu__item:hover::after, .menu__item_active::after {
+    opacity: 1;
+    width: 100%;
 }
 
 .menu__item:last-child {
@@ -330,10 +327,10 @@
   border-radius: 50%;
 }
   
-  .logo__circle_color_blue {
-    background: #c8dbfb;
-    left: 30px;
-    top: 39%;
+    .logo__circle_color_blue {
+      background: #c8dbfb;
+      left: 30px;
+      top: 39%;
 }
   
   .logo__circle_color_dark-blue {
@@ -432,12 +429,12 @@
     margin-top: 18px;
 }
 
-.header {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  padding: 9px 10px 10px 25px;
-  margin-bottom: 81px;
+  .header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 9px 10px 10px 25px;
+    margin-bottom: 81px;
 }
 
 .logo__text {
