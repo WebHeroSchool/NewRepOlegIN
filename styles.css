@@ -129,7 +129,7 @@
 
   .main {
     padding-bottom: 250px;
-    background: 100% -2% no-repeat url(img/mainming.svg);
+    background: url(img/mainming.svg) 100% -2% no-repeat ;
 }
 
   .main__title {
@@ -171,8 +171,7 @@
 }
 
 }
-
-/*разрешение от 1367 до 1581*/
+/* разрешение от 1367 до 1581 */
 @media (min-width: 1367px) and (max-width: 1581px) {
   .wrapper {
     width: 80%;
@@ -253,8 +252,7 @@
 
   .main {
     padding-bottom: 250px;
-    background-size: 50% !important;
-    background: 101% -1% no-repeat url(img/mainming.svg);
+    background: url(img/mainming.svg) 101% -1%/50% no-repeat;
 }
 
   .main__title {
@@ -296,7 +294,6 @@
 }
 
 }
-
 /* разрешение от 1251 до 1366 */
 @media (min-width: 1251px) and (max-width: 1366px) {
   .wrapper {
@@ -340,8 +337,7 @@
   
   .main {
     padding-bottom: 150px;
-    background-size: 54% !important;
-    background: 99% -13% no-repeat url(img/mainming.svg);
+    background: url(img/mainming.svg) 99% -13%/54% no-repeat;
 }
   
   .main__title {
@@ -423,8 +419,7 @@
 }
   
 }
-
-/*разрешение от 1025 до 1250*/
+/* разрешение от 1025 до 1250 */
 @media (min-width: 1025px) and (max-width: 1250px) {
   .wrapper {
     width: 100%;
@@ -467,8 +462,7 @@
 
 .main {
   padding-bottom: 150px;
-  background-size: 54% !important;
-  background: 99% -11% no-repeat url(img/mainming.svg);
+  background: url(img/mainming.svg) 99% -11%/54% no-repeat;
 }
 
 .main__title {
@@ -594,8 +588,7 @@
   
 .main {
   padding-bottom: 150px;
-  background-size: 53% !important;
-  background: 97% -14% no-repeat url(img/mainming.svg);
+  background: url(img/mainming.svg) 97% -14%/53% no-repeat;
 }
   
 .main__title {
@@ -721,8 +714,7 @@
 
 .main {
   padding-bottom: 150px;
-  background-size: 45% !important;
-  background: top right no-repeat url(img/mainming.svg);
+  background: url(img/mainming.svg) top right/45% no-repeat;
 }
 
 .main__title {
@@ -1016,7 +1008,6 @@
 }
 
 }
-
 /* adoptation for mobile iPhone 5/5S */
 @media (max-width: 320px) {
   .wrapper {
