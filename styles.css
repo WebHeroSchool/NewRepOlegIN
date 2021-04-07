@@ -7,10 +7,6 @@
   background: linear-gradient(to bottom, #fff 20%, #ecf3ff 20%, #ecf3ff 90%, #fff 90%, #fff 10%);
 }
 
-.main__button:hover {
-  opacity: .5;
-}
-
 .footer_circle1 {
   width: 8px;
   height: 8px;
@@ -44,7 +40,11 @@
   animation: glowing 2s infinite;
 }
 
-/*разрешение от 1582*/
+.main__button:hover {
+  opacity: 0.5;
+}
+
+/* разрешение от 1582 */
 @media (min-width: 1582px) {
   .wrapper {
     width: 80%;
@@ -71,7 +71,7 @@
     transform: translateY(-60%);
     width: 28px;
     height: 28px;
-    opacity: .7;
+    opacity: 0.7;
     border-radius: 50%;
 }
 
@@ -98,23 +98,23 @@
     font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
-      .menu__item:after {
-        position: absolute;
-        left: -1px;
-        display: block;
-        content: "";
-        width: 100%;
-        height: 3px;
-        background: #0056ec;
-        opacity: 0;
-        transition: opacity .5s, width .5s;
+  .menu__item:after {
+    position: absolute;
+    left: -1px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #0056ec;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
 }
 
     .menu__item:hover {
-      opacity: .5;
+      opacity: 0.5;
 }
 
     .menu__item:hover::after, .menu__item_active::after {
@@ -155,10 +155,10 @@
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding-top: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 17px;
 }
 
 .main__subtitle-mobile {
@@ -186,7 +186,7 @@
     margin-bottom: 100px;
 }
 
-.logo__text {
+  .logo__text {
     padding: 23px 0 2% 45px;
     font: bold 24px/30px 'pt_serifbold', arial, helvetica, sans-serif;
 }
@@ -202,10 +202,10 @@
     border-radius: 50%;
 }
 
-.logo__circle_color_blue {
-  background: #c8dbfb;
+  .logo__circle_color_blue {
+    background: #c8dbfb;
     left: 8px;
-  top: 37%;
+    top: 37%;
 }
 
   .logo__circle_color_dark-blue {
@@ -314,9 +314,9 @@
   margin-bottom: 81px;
 }
   
-.logo__text {
-  padding: 12px 42px;
-  font: bold 24px/30px 'pt_serifbold', arial, helvetica, sans-serif;
+  .logo__text {
+    padding: 12px 42px;
+    font: bold 24px/30px 'pt_serifbold', arial, helvetica, sans-serif;
 }
   
 .logo__circle {
@@ -336,8 +336,8 @@
   top: 39%;
 }
   
-.logo__circle_color_dark-blue {
-  background: #0056ec;
+  .logo__circle_color_dark-blue {
+    background: #0056ec;
 }
   
 .main {
@@ -355,7 +355,7 @@
 .main__subtitle {
   padding-right: 27%;
   margin: 0 33% 41px 23px;
-  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
 }
   
 .menu {
@@ -629,7 +629,7 @@
   
 .menu__item:after {
   position: absolute;
-  left: 0;
+    left: 0;
   display: block;
   content: "";
   width: 100%;
@@ -844,11 +844,11 @@
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 30%;
+    top: 30%;
   transform: translateY(-60%);
   width: 28px;
   height: 28px;
-  opacity: .7;
+  opacity: 0.7;
   border-radius: 50%;
   }
 
